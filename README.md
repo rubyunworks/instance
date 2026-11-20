@@ -1,3 +1,18 @@
+> **This project is retired.**
+>
+> Its successor is `Mirror`, part of [Ruby Facets](https://github.com/rubyworks/facets)
+> since Facets 4.2.0 (2026-11): `require 'facets/mirror'`, then
+> `obj.mirror` in place of `obj.instance`. A mirror gets, sets and lists
+> an object's instance variables (`mirror[:name]`, `mirror.to_h`,
+> `mirror.update(hash)`) and gives its class and methods. It is not a
+> drop-in replacement: the method names differ, and `mirror` doesn't
+> clash with Rails' or Singleton's `instance`.
+>
+> This repository preserves Instance, last released as 0.2.0 in 2014. It
+> is no longer maintained.
+
+---
+
 # Instance
 
 ## What Is It?
